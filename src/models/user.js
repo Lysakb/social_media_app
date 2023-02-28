@@ -32,9 +32,9 @@ const userSchema = new Schema({
         type: String,
         required: true,
         enum: ["admin", "user"]
-    },
+    }, 
 },
-{timestamps: true}
+{timestamps: true} 
 )
 
 const userModel = mongoose.model("User", userSchema);
